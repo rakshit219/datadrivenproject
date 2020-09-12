@@ -24,6 +24,8 @@ public class OpenAccountTest extends TestBase {
 		alert.accept();
 		log.debug("Successfully opened customer account");
 		Reporter.log("Successfully opened customer account");
+		System.out.println("Git commit addition");
+	
 	}
 
 }
